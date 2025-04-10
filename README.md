@@ -1,6 +1,7 @@
 # Flipkart Machine Coding Round
-#FlipTweet
-#Problem Statement
+# FlipTweet
+
+# Problem Statement
 Build an application that allows users to post tweets to their followers. This application provides the following limited functionality:
 
 Each user will have some followers. Users can tweet a text message(tweet).
@@ -12,7 +13,7 @@ Name is a unique identifier for the user.
 For a particular user, the list of followers can be added only once .
 Every Tweet will have a uniqueId
 
-#Write a program that offers the following functions: 
+# Write a program that offers the following functions: 
 CREATE_USER(userName): 
 ADD_FOLLOWERS(userName,List<userName>)
 POST_TWEET(msg,userName):  Prints the tweet text and tweet id
@@ -21,7 +22,7 @@ GET_USER_FEED_BY_USER_NAME(userName):   Prints the tweet text of resultant tweet
 HIDE_TWEET_FOR_USER_BY_TWEETID(userName, tweetId)
 DELETE_TWEET_BY_TWEETID(tweetId)
 
-#Sample Input
+# Sample Input
 CREATE_USER(“Gopal”)
 CREATE_USER(“Madhav”)
 CREATE_USER(“Lucky”)
@@ -55,14 +56,14 @@ Good morning
 		<No output>
       14. GET_USER_FEED_BY_USER_NAME(“Gopal)
 		<No output>
-#Expectations
+# Expectations
 Code should be demo-able (very important), either by using a main driver program or test cases.
 Code should handle edge cases properly and fail gracefully.
 Create the sample data yourself to test your code. You can put it into a file, test case or main driver program itself.
 Code should not be monolithic and it should be readable, extensible with proper naming conventions. Best practices followed.
 Don’t use any database, store all the data in memory.
 Email your code post completion of time.
-#Guidelines
+# Guidelines
 Feel free to discuss the solution with an interviewer
 Input can be read from file or can be hard coded/used.
 You are free to use the language of your choice.
